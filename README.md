@@ -1,38 +1,69 @@
-# create-svelte
+# Emoji Matching Game 🎮
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A fun and engaging matching game built using SvelteKit. This game allows players to find and match pairs of emojis. It's a great way to test your memory and have fun with emojis!
 
-## Creating a project
+## Table of Contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Emoji Matching Game 🎮](#emoji-matching-game-)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Game Instructions](#game-instructions)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Project Link](#project-link)
+  - [Acknowledgements](#acknowledgements)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
+- Multiple game states including start, playing, paused, won, and lost.
+- A countdown timer to make the game more challenging.
+- Attractive animations and transitions for an engaging experience.
+- Built with SvelteKit and TypeScript for smooth performance.
+
+## Installation
+
+To get started, clone the repository and install the dependencies:
+
+```
+git clone https://github.com/your-username/emoji-matching-game.git
+cd emoji-matching-game
+npm install
 ```
 
-## Developing
+## Usage
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To run the application in development mode, use the following command:
 
-```bash
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+Now you can open your browser at http://localhost:3000 to see the game in action.
 ```
 
-## Building
+## Game Instructions
 
-To create a production version of your app:
+Start the Game: Click on the "Start" button to begin the game.
 
-```bash
-npm run build
-```
+Match Emojis: Click on the cards to find matching pairs of emojis.
 
-You can preview the production build with `npm run preview`.
+Pause and Resume: Press the "Escape" key to pause and resume the game.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Winning & Losing: Match all pairs before the time runs out to win, or try again if the time runs out.
+
+## Contribution
+
+If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+
+## License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+## Project Link
+
+https://github.com/tomagrab/matching-game
+
+## Acknowledgements
+
+- SvelteKit
+- Emojis
